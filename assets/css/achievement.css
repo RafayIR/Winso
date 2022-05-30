@@ -1,0 +1,129 @@
+/************achievement-wrappper*********/
+
+.achievement {
+  margin-top: 50px;
+}
+
+.bg-parallax {
+  background-image: url(../images/about-us-banner-img/about-us-banner.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.achievement-top-wrapper {
+  padding-top: 90px;
+  margin-bottom: 35px;
+}
+
+.achievement-col-1 {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 20%;
+  flex: 0 0 20%;
+}
+
+.icon {
+  margin-bottom: 20px;
+}
+
+.achievement-list {
+  text-align: center;
+}
+
+.achievement-list h2 {
+  color: var(--white);
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.achievement-list span {
+  font-size: 15px;
+  color: var(--white);
+}
+
+.gallery {
+  padding-bottom: 90px;
+}
+
+.gallery-img img {
+  width: 100%;
+}
+
+.gallery-slider .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/*********************OWL-BUTON-STYLING***************/
+
+.gallery-slider .owl-nav {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+}
+
+.gallery-slider .owl-nav button {
+  position: absolute;
+  top: 0;
+  width: 50px;
+  height: 50px;
+  background-color: var(--secondary) !important;
+  border-radius: 50% !important;
+  color: white !important;
+}
+
+.gallery-slider .owl-nav button.owl-prev {
+  left: -15px;
+}
+
+.gallery-slider .owl-nav button.owl-next {
+  right: -15px;
+}
+
+.gallery-slider .owl-nav button.owl-prev span,
+.gallery-slider .owl-nav button.owl-next span {
+  font-size: 26px !important;
+  line-height: 20px;
+}
+
+@media screen and (max-width: 992px) {
+  .achievement-col-1 {
+    width: 33.33%;
+    flex: 0 0 33.33%;
+    margin-bottom: 15px;
+  }
+  .gallery-slider .owl-nav button.owl-prev,
+  .gallery-slider .owl-nav button.owl-next {
+    width: 40px !important;
+    height: 40px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .gallery-slider .owl-nav {
+    top: 30% !important;
+  }
+
+  .gallery-slider .owl-nav button.owl-prev,
+  .gallery-slider .owl-nav button.owl-next {
+    width: 40px !important;
+    height: 40px !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .achievement-col-1 {
+    width: 100%;
+    flex: 0 0 100%;
+    margin-bottom: 20px;
+  }
+  .row.owl-2 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .gallery-slider .owl-nav {
+    top: 30% !important;
+  }
+}

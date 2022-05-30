@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+
+    <link rel="stylesheet" href="assets/bootstrap-4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.css">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="//code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+
+    <script src="assets/bootstrap-4/js/bootstrap.min.js"></script>
+    <script src="assets/bootstrap-4/js/bootstrap.bundle.min.js"></script>
+
+
+
+</head>
+
+<body>
+
+    <header class="site-header">
+        <!-----------TOP-NAV--------------->
+        <div class="top-nav pt-3 pb-3">
+            <div class="container">
+                <div class="top-nav-content d-flex justify-content-between align-content-center">
+                    <div class="top-nav-left">
+                        <ul class="topnav-left-wrapper  align-content-center">
+                            <li class="topnav-left-list d-inline-block mr-5 ">
+                                <a href="#" class="contact-link">
+                                    <img class="mr-2" src="assets/icons/nav-icons/mobile-icon.png" alt="">
+                                    + 1 212-683-9756
+                                </a>
+                            </li>
+                            <li class="top-nav-left-list d-inline-block mr-3">
+                                <a href="#" class="contact-link">
+                                    <img class="mr-2" src="assets/icons/nav-icons/map-icon.png" alt="">
+                                    121 Sparrow Hawk, Alberta
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="top-nav-right mobile-hide">
+                        <ul class="topnav-right-wrapper d-flex align-content-center">
+                            <li class="topnav-right-list mr-4">
+                                <a href="social-link">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="topnav-right-list mr-4">
+                                <a href="social-link">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="topnav-right-list mr-4">
+                                <a href="social-link">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="topnav-right-list">
+                                <a href="social-link">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!----------MAIN-NAV------------>
+        <div class="main-nav  pt-3 border-bottom border-dark position-absolute fixed-top  pb-3">
+            <div class="container">
+                <div class="main-nav-wrapper d-flex no-gutters justify-content-between align-items-center">
+                    <div class="main-nav-left d-flex align-items-center col-lg-6 col-md-3 col-sm-9 col-8">
+                        <a onclick="openNav()" class="btn btn-toggle desktop-hide col-4">
+                            <i class="fas fa-bars"></i>
+                        </a>
+                        <div
+                            class="logo p-lg-0 p-md-0 p-sm-0 text-lg-left text-md-left text-sm-center text-center col-9">
+                            <a href="">
+                                <img src="assets/images/logo-img/logo-img.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="main-nav-right col-lg-5 col-md-6  col-sm-1 col-1">
+                        <nav class="navbar row justify-content-lg-center justify-content-sm-center flex-column">
+
+                            <ul class="nav-wrapper text-uppercase d-flex">
+                                <a onclick="closeNav()" class="cross desktop-hide"> &#10006;</a>
+                                <li class="nav-list mr-5">
+                                    <a href="#">Home</a>
+                                </li>
+                                <li class="nav-list  mr-5">
+                                    <a href="#">Insurance</a>
+                                </li>
+                                <li class="nav-list mr-5">
+                                    <a href="about-us.html">Pages</a>
+                                </li>
+                                <li class="nav-list mr-5">
+                                    <a href="#">News</a>
+                                </li>
+                                <li class="nav-list mr-auto">
+                                    <a href="#">Contact</a>
+                                </li>
+                            </ul>
+
+                        </nav>
+                    </div>
+
+                    <button class="btn search-btn btn-primary d-flex align-items-center justify-content-center">
+                        <i class="fas fa-search  p-0 w-auto"></i>
+                        <input type="text" class="floating-search" placeholder="search">
+                    </button>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="bg-overlay" class="overlay"></div>
+
+
+
+    <main>
+        <!------------------BANNNER--------------->
+        <section class="banner">
+            <div class="banner-img-wrapper position-relative">
+                <div class="banner-img">
+                    <img class="banner-img-main" src="assets/images/banner-img/banner_img_1.jpg" alt="">
+                    <div class="banner-curve">
+                        <img src="assets/images/banner-img/banner-img-bg.png" alt="">
+                    </div>
+                    <div class="banner-content-wrapper position-absolute">
+                        <div class="container">
+                            <div class="banner-content text-uppercase text-white text-center">
+                                <div
+                                    class="banner-heading text-center d-flex align-items-center justify-content-center flex-column ">
+                                    <div class="banner-header">
+                                        <h5>
+                                            what your insurer should deliver
+                                        </h5>
+
+                                        <h2 class="mt-4   font-weight-bold">
+                                            ready for tomorrow ? make sense of it with vinso insurance
+                                        </h2>
+                                    </div>
+                                </div>
+                                <div class="banner-btn mt-5">
+                                    <button class="btn text-uppercase font-weight-bold  btn-primary mr-3">find an
+                                        agent</button>
+                                    <button class="btn text-uppercase font-weight-bold bg-white text-primary">get a
+                                        quote</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!------------------FEATURE---------------->
+                <div class="feature">
+                    <div class="container">
+                        <div class="card-wrapper">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                                    <div class="card text-center">
+                                        <div class="feature-card pt-5">
+                                            <img src="assets/icons/card-icons/card-icon-1.png" alt="">
+                                        </div>
+                                        <div class="card-body text-center">
+                                            <h4 class="card-title font-weight-bold">
+                                                Modern online payment
+                                            </h4>
+                                            <p class="card-text">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+                                                excepturi odit
+                                                fugiat
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+                                    <div class="card text-center">
+                                        <div class="feature-card pt-5">
+                                            <img src="assets/icons/card-icons/card-icon-2.png" alt="">
+                                        </div>
+                                        <div class="card-body text-center">
+                                            <h4 class="card-title font-weight-bold">
+                                                Trusted insurance policies
+                                            </h4>
+                                            <p class="card-text">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+                                                excepturi odit
+                                                fugiat
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-4 tablet-hide col-12">
+                                    <div class="card text-center">
+                                        <div class="feature-card pt-5">
+                                            <img src="assets/icons/card-icons/card-icon-3.png" alt="">
+                                        </div>
+                                        <div class="card-body text-center">
+                                            <h4 class="card-title font-weight-bold">
+                                                Insurance for everyone
+                                            </h4>
+                                            <p class="card-text">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+                                                excepturi odit
+                                                fugiat
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+
+
+        <!---------------INSURE------->
+        <div class="insure">
+            <div class="container">
+                <div class="insure-wrapper">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="insure-wrapper-img">
+                                <div class="insure-img">
+                                    <img src="assets/images/feature-img/feature-img-1.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="content-wrapper">
+                                <h4 class="font-weight-bold text-uppercase">we ensure your life</h4>
+                                <h2 class="mt-3">Taking care of whats important.</h2>
+                                <p class="mt-3">Lorem ipsum dolor sit amet, consect eiusmod tempor
+                                    incididunt u
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                                    consequatur, cum
+                                    voluptatum dignissimos nesciunt tempore maxime quo deserunt ratione
+                                    dolorum.
+                                </p>
+                                <button class="btn contact-btn font-weight-bold btn-primary mt-5">
+                                    CONTACT US
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!---------------INSURE-SERVICES------->
+        <div class="bg-wave-blue">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#f2f8fe" fill-opacity="1"
+                    d="M0,96L60,122.7C120,149,240,203,360,229.3C480,256,600,256,720,234.7C840,213,960,171,1080,176C1200,181,1320,235,1380,261.3L1440,288L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+                </path>
+            </svg>
+        </div>
+
+
+        <div class="insure-services">
+
+            <div class="container">
+                <div class="insure-header pb-5">
+                    <div class="row text-center">
+                        <div class="col-lg-12">
+                            <h4>INSURE SERVICES</h4>
+                            <h2>Our feature services</h2>
+                        </div>
+                    </div>
+                </div>
+                <!-------------------CARD-ROW---------------->
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-12 mt-sm-5">
+                        <div class="insure-card">
+                            <div class="card">
+                                <div class="card-img-wrapper">
+                                    <img class="card-img-top" src="assets/images/feature-card-img/card-img-1.png"
+                                        alt="">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title font-weight-bold">Home insurance</h5>
+                                    <p class="card-text">protect your house so it always feels like home</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-12 mt-sm-5">
+                        <div class="insure-card">
+                            <div class="card">
+                                <div class="card-img-wrapper">
+                                    <img class="card-img-top" src="assets/images/feature-card-img/card-img-2.png"
+                                        alt="">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title font-weight-bold">Home insurance</h5>
+                                    <p class="card-text">The protection you need for travel’s many “what ifs.”</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-12 mt-sm-5">
+                        <div class="insure-card">
+                            <div class="card">
+                                <div class="card-img-wrapper">
+                                    <img class="card-img-top" src="assets/images/feature-card-img/card-img-3.png"
+                                        alt="">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title font-weight-bold">Home insurance</h5>
+                                    <p class="card-text">Extra protection for you and the people you care about.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-12 mt-5">
+                        <div class="insure-card">
+                            <div class="card">
+                                <div class="card-img-wrapper">
+                                    <img class="card-img-top" src="assets/images/feature-card-img/card-img-4.png"
+                                        alt="">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title font-weight-bold">Home insurance</h5>
+                                    <p class="card-text">Protect your house so it always feels like home.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-12 mt-5">
+                        <div class="insure-card">
+                            <div class="card">
+                                <div class="card-img-wrapper">
+                                    <img class="card-img-top" src="assets/images/feature-card-img/card-img-5.png"
+                                        alt="">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title font-weight-bold">Home insurance</h5>
+                                    <p class="card-text">protect your house so it always feels like home</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-12 mt-5">
+                        <div class="insure-card">
+                            <div class="card">
+                                <div class="card-img-wrapper">
+                                    <img class="card-img-top" src="assets/images/feature-card-img/card-img-6.png"
+                                        alt="">
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title font-weight-bold">Home insurance</h5>
+                                    <p class="card-text">protect your house so it always feels like home</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!---------------WHAT-YOU-NEED------->
+        <section class="what-you-need pt-5 pb-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-12 mb-5">
+                        <div class="not-sure-heading">
+                            <h1>Not sure what you need? Find an agent now</h1>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 tablet-hide col-sm-6 col-12 mb-5">
+                        <div class="card border bg-transparent">
+                            <div class="card-body text-center">
+                                <h3 class="">Call us now</h3>
+                                <h2 class="mt-4">+ 1 212-683-9756</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 email-subscriber col-sm-12 mb-5">
+                        <div class="card border bg-transparent">
+                            <div class="card-body text-center">
+                                <h3 class="font-weight-bold ">Sign up for emails</h3>
+                                <form action="php?" class="mt-4">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control border" placeholder="Enter your email">
+                                        <div class="input-group-append">
+                                            <button type="submit" class="btn btn-primary">
+                                                <i class="fas fa-arrow-right"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!---------------INSURANCE-PRICING------>
+        <section class="insure-pricing mt-5">
+            <div class="container">
+                <div class="insure-header">
+                    <div class="row text-center">
+                        <div class="col-lg-12">
+                            <h4>INSURANCE PRICING</h4>
+                            <h2>Best offer for you</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="insure-wrapper">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-6 mb-5">
+                            <div class="card line text-center">
+                                <div class="card-body">
+                                    <span class="facilty">Got Real Facility</span>
+                                    <h3 class="font-weight-bold">Basic Plan</h3>
+                                    <div
+                                        class="pricing-plan d-flex flex-column justify-content-center border-bottom pt-3 pb-5 mr-3 ml-3">
+                                        <span class="amount">
+                                            $ 95.0
+                                        </span>
+                                        <span class="month">monthly</span>
+                                    </div>
+                                    <div class="card-list pt-lg-5 pt-md-4 pt-sm-3 pt-5 mb-4">
+                                        <ul class="list-group list-group-flush ">
+                                            <li class="list-group-item border-bottom-0">
+                                                Increased Loss Assessment coverage
+                                            </li>
+                                            <li class="list-group-item border-bottom-0">
+                                                Scheduled property endorseme
+                                            </li>
+                                            <li class="list-group-item border-bottom-0">
+                                                Mold coverage endrosment
+                                            </li>
+                                            <li class="list-group-item border-bottom-0">
+                                                Personal Umberella Liabilty Policy
+                                            </li>
+                                            <li class="list-group-item border-bottom-0">
+                                                Additional covergae options
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <a href="#" class="btn card-btn btn-light text-uppercase">Get started</a>
+                                </div>
+                                <div class="content-hover"></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 mb-5">
+                            <div class="card line text-center">
+                                <div class="card-body">
+                                    <span class="popular">POPULAR</span>
+                                    <span class="facilty">Got Real Facility</span>
+                                    <h3 class="font-weight-bold">Premium Plan</h3>
+                                    <div
+                                        class="pricing-plan d-flex flex-column justify-content-center border-bottom pt-3 pb-5 mr-3 ml-3">
+                                        <span class="amount">
+                                            $ 295.0
+                                        </span>
+                                        <span class="month">monthly</span>
+                                    </div>
+                                    <div class="card-list pt-lg-5 pt-md-4 pt-sm-3 pt-5 mb-4">
+                                        <ul class="list-group list-group-flush ">
+                                            <li class="list-group-item border-bottom-0">
+                                                Increased Loss Assessment coverage
+                                            </li>
+                                            <li class="list-group-item border-bottom-0">
+                                                Scheduled property endorseme
+                                            </li>
+                                            <li class="list-group-item border-bottom-0">
+                                                Mold coverage endrosment
+                                            </li>
+                                            <li class="list-group-item border-bottom-0">
+                                                Personal Umberella Liabilty Policy
+                                            </li>
+                                            <li class="list-group-item border-bottom-0">
+                                                Additional covergae options
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <a href="#" class="btn card-btn btn-light text-uppercase">Get started</a>
+                                </div>
+                                <div class="content-hover"></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 tablet-hide mb-5">
+                            <div class="card line text-center">
+                                <div class="card-body">
+                                    <span class="facilty">Got Real Facility</span>
+                                    <h3 class="font-weight-bold">Premium Plan</h3>
+                                    <div
+                                        class="pricing-plan d-flex  flex-column justify-content-center border-bottom pt-3 pb-5 mr-3 ml-3">
+                                        <span class="amount">
+                                            $ 195.0
+                                        </span>
+                                        <span class="month">monthly</span>
+                                    </div>
+                                    <div class="card-list pt-lg-5 pt-md-4 pt-sm-3 pt-5 mb-4">
+                                        <ul class="list-group list-group-flush ">
+                                            <li class="list-group-item border-bottom-0">
+                                                Increased Loss Assessment coverage
+                                            </li>
+                                            <li class="list-group-item border-bottom-0">
+                                                Scheduled property endorseme
+                                            </li>
+                                            <li class="list-group-item border-bottom-0">
+                                                Mold coverage endrosment
+                                            </li>
+                                            <li class="list-group-item border-bottom-0">
+                                                Personal Umberella Liabilty Policy
+                                            </li>
+                                            <li class="list-group-item border-bottom-0">
+                                                Additional covergae options
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <a href="#" class="btn card-btn btn-light text-uppercase">Get started</a>
+                                </div>
+                                <div class="content-hover"></div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!---------------TEAM---------->
+        <section class="meet-team mt-5">
+            <div class="container">
+                <div class="meet-team-header">
+                    <div class="row text-lg-left text-sm-center text-center">
+                        <div class="col-lg-6 col-12">
+                            <h4 class="font-weight-bold text-uppercase">our team</h4>
+                            <h1 class="font-weight-bold">Meet our agents</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="meet-team-slider mt-5 pb-5">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+                            <div class="card border-0">
+                                <div class="card-img-wrapper">
+                                    <div class="card-img">
+                                        <img class="card-img-top" src="assets/images/team-img/teamimg1.png" alt="">
+                                        <div class="team-social">
+                                            <div class="team-social-inner">
+                                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                                <a href=""><i class="fab fa-twitter"></i></a>
+                                                <a href=""><i class="fab fa-instagram"></i></a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title font-weight-bold">Mancherwan Kolin</h5>
+                                    <span class="card-text">Health agent</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+                            <div class="card border-0">
+                                <div class="card-img-wrapper">
+                                    <div class="card-img">
+                                        <img class="card-img-top" src="assets/images/team-img/teamimg2.png" alt="">
+                                        <div class="team-social">
+                                            <div class="team-social-inner">
+                                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                                <a href=""><i class="fab fa-twitter"></i></a>
+                                                <a href=""><i class="fab fa-instagram"></i></a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title font-weight-bold">Mancherwan Kolin</h5>
+                                    <span class="card-text">Health agent</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+                            <div class="card border-0">
+                                <div class="card-img-wrapper">
+                                    <div class="card-img">
+                                        <img class="card-img-top" src="assets/images/team-img/teamimg3.png" alt="">
+                                        <div class="team-social">
+                                            <div class="team-social-inner">
+                                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                                <a href=""><i class="fab fa-twitter"></i></a>
+                                                <a href=""><i class="fab fa-instagram"></i></a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title font-weight-bold">Mancherwan Kolin</h5>
+                                    <span class="card-text">Health agent</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+                            <div class="card border-0">
+                                <div class="card-img-wrapper">
+                                    <div class="card-img">
+                                        <img class="card-img-top" src="assets/images/team-img/teamimg4.png" alt="">
+                                        <div class="team-social">
+                                            <div class="team-social-inner">
+                                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                                <a href=""><i class="fab fa-twitter"></i></a>
+                                                <a href=""><i class="fab fa-instagram"></i></a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title font-weight-bold">Mancherwan Kolin</h5>
+                                    <span class="card-text">Health agent</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-------------------FOOOTER------------------------->
+
+
+    <footer class="site-footer  pb-3">
+        <div class="container">
+            <div class="footer-top pt-5">
+                <div class="footer-banner">
+                    <div
+                        class="row  justify-content-md-center justify-content-sm-center  align-items-sm-center    align-items-center border-bottom  pb-5">
+                        <div class="footer-col">
+                            <div class="footer-banner-img">
+                                <img src="assets/images/banner-logo-img/banner-img-1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="footer-col ">
+                            <div class="footer-banner-img">
+                                <img src="assets/images/banner-logo-img/banner-img-2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="footer-col">
+                            <div class="footer-banner-img">
+                                <img src="assets/images/banner-logo-img/banner-img-3.png" alt="">
+                            </div>
+                        </div>
+                        <div class="footer-col">
+                            <div class="footer-banner-img">
+                                <img src="assets/images/banner-logo-img/banner-img-4.png" alt="">
+                            </div>
+                        </div>
+                        <div class="footer-col mobile-hide">
+                            <div class="footer-banner-img">
+                                <img src="assets/images/banner-logo-img/banner-img-5.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-body mt-5 mb-5">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-6 pt-5 pt-sm-4 ">
+                        <h2 class="font-weight-bold mb-4">COMPANY</h2>
+                        <div class="footer-list-wrapper">
+                            <ul class="list group list-group-flush">
+                                <li class="list-group-item p-0 bg-transparent border-0">
+                                    <a href="">About us</a>
+                                </li>
+                                <li class="list-group-item p-0 bg-transparent border-0">
+                                    <a href=""> Company</a>
+                                </li>
+                                <li class="list-group-item p-0 bg-transparent border-0">
+                                    <a href="">Press & Blog</a>
+                                </li>
+                                <li class="list-group-item p-0 bg-transparent border-0">
+                                    <a href=""> Privacy Policy
+                                    </a>
+                                </li>
+                                <li class="list-group-item p-0 bg-transparent border-0">
+                                    <a href="">FAQ</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 pt-5 pt-sm-4 ">
+                        <h2 class="font-weight-bold mb-4">OPEN HOUR</h2>
+                        <div class="footer-list-wrapper">
+                            <ul class="list group list-group-flush">
+                                <li class="list-group-item p-0 bg-transparent border-0">
+                                    <a href="">11am-7pm</a>
+                                </li>
+                                <li class="list-group-item p-0 bg-transparent border-0">
+                                    <a href="">uesday-Friday 11am-8pm</a>
+                                </li>
+                                <li class="list-group-item p-0 bg-transparent border-0">
+                                    <a href="">Saturday 10am-6pm</a>
+                                </li>
+                                <li class="list-group-item p-0 bg-transparent border-0">
+                                    <a href="">Sunday 11am-6pm</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 pt-5 pt-sm-4 ">
+                        <h2 class="font-weight-bold mb-4">RESOURCES</h2>
+                        <div class="footer-list-wrapper">
+                            <ul class="list group list-group-flush">
+                                <li class="list-group-item p-0 bg-transparent border-0">
+                                    <a href=""> Home Insurance</a>
+                                </li>
+                                <li class="list-group-item p-0 bg-transparent border-0">
+                                    <a href=""> Travel Insurance</a>
+                                </li>
+                                <li class="list-group-item p-0 bg-transparent border-0">
+                                    <a hre=""> car Insurance</a>
+                                </li>
+                                <li class="list-group-item p-0 bg-transparent border-0">
+                                    <a href=""> Business Insurance</a>
+                                </li>
+                                <li class="list-group-item p-0 bg-transparent border-0">
+                                    <a href=""> Heal Insurance</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 pt-sm-4 pt-5">
+                        <div class="footer-logo pb-4">
+                            <div class="footer-logo-img">
+                                <img src="assets/images/logo-img/logo-img.png" alt="" srcset="">
+                            </div>
+                        </div>
+                        <div class="footer-para-wrapper">
+                            <p class="footer-para">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa, ut. Laudantium
+                                molestiae porro,
+                            </p>
+                        </div>
+                        <div class="footer-social-wrapper mt-4">
+                            <ul class="footer-social d-flex">
+                                <li class="social-icon-list pr-5">
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li class="social-icon-list pr-5">
+                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                </li>
+                                <li class="social-icon-list">
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright ">
+                <div class="copyright-wrapper text-center">
+                    <div class="row  border-top mt-4">
+                        <div class="col-lg-12">
+                            <span class="d-block pt-4">&copy; 2019, Vinso-Insurance Multipurpose Theme.All rights
+                                reserved
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>

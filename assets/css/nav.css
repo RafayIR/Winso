@@ -1,0 +1,153 @@
+.top-nav {
+  background-color: var(--secondary);
+}
+.top-nav a {
+  color: var(--white);
+}
+
+.nav-list a {
+  font-weight: 700;
+  color: var(--white);
+}
+
+.main-nav {
+  background-color: transparent;
+  top: auto;
+}
+
+ul.nav-wrapper li.nav-list {
+  border-bottom: 2px solid transparent;
+  padding-bottom: 3px;
+}
+
+ul.nav-wrapper li.nav-list:hover {
+  border-bottom: 2px solid #fff;
+}
+
+.search-btn {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  margin-left: 10px;
+}
+
+.search-btn .fas {
+  font-size: 14px;
+}
+
+.floating-search {
+  position: absolute;
+  top: 46px;
+  right: 0px;
+  padding: 15px;
+  height: 40px;
+  width: 100%;
+  min-width: 300px;
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .floating-search {
+    top: 61px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .btn.btn-toggle {
+    padding: 0;
+    text-align: left;
+    font-size: 16px;
+  }
+
+  .overlay {
+    position: fixed;
+    width: 100%;
+    z-index: 16;
+    overflow-x: hidden;
+    transition: 0.5s;
+    left: 0;
+    top: 0;
+    display: none;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .main-nav-right {
+    position: absolute;
+    left: 14px;
+    top: -43px;
+    z-index: 1031;
+  }
+
+  .navbar {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 290px;
+    height: auto;
+    background-color: var(--white);
+    z-index: 15;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: none;
+  }
+
+  .main-nav-right .cross {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .main-nav-right a.cross {
+    font-size: 20px;
+    opacity: 0.8;
+  }
+
+  .main-nav-right.col-12.col-sm-1 {
+    position: inherit;
+  }
+
+  ul.nav-wrapper {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  ul.nav-wrapper li:first-child {
+    margin-top: 20px;
+  }
+
+  ul.nav-wrapper > li {
+    margin-bottom: 20px;
+  }
+
+  .navbar a {
+    color: #000;
+  }
+  .search-btn {
+    height: 35px;
+  }
+
+  .banner-content-wrapper {
+    top: 25%;
+  }
+
+  .banner-heading .banner-header {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .topnav-left-wrapper {
+    justify-content: center;
+  }
+
+  .topnav-left-list {
+    margin-right: 10px !important;
+  }
+
+  .topnav-left-wrapper a {
+    font-size: 11px;
+  }
+}

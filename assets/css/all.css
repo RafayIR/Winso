@@ -1,0 +1,24 @@
+@import url(reset.css);
+@import url(nav.css);
+@import url(banner.css);
+@import url(feature.css);
+@import url(footer.css);
+@import url(team.css);
+@import url(insure-pricing.css);
+@import url(what-you-need.css);
+@import url(insure-services.css);
+@import url(about-us.css);
+@import url(achievement.css);
+@import url(testimonial.css);
+
+.insure-header h4 {
+  color: var(--primary);
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+
+.insure-header h2 {
+  font-weight: 700;
+  font-size: 32px;
+}

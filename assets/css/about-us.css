@@ -1,0 +1,145 @@
+.about-us-feature.feature {
+  position: inherit;
+}
+
+.about-us-banner img {
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.9;
+}
+
+.about-us-banner .banner-content-wrapper {
+  top: 40%;
+}
+
+.about-us-breadcrumbs {
+  background-color: var(--white);
+  width: 30%;
+  padding: 24px;
+}
+
+.about-us-breadcrumbs h1 {
+  font-weight: 700;
+}
+
+.breadcrumbs-container {
+  width: 100%;
+}
+
+ol.breadcrumb {
+  background-color: var(--white);
+}
+
+ol.breadcrumb li,
+ol.breadcrumb a {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/***************ABOUT-US-TEAM*************/
+
+.card-img-team {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-img-team img {
+  width: 100%;
+}
+
+.card-img-team .team-social {
+  border-radius: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+.card-img-team .team-social-inner a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  color: var(--gray);
+  margin: 0 6px;
+  border-radius: 50%;
+  background-color: var(--white);
+  transform: rotate(180deg);
+  transition: all 0.4s;
+}
+
+.card-img-team .team-social-inner a:hover {
+  color: var(--white);
+  background-color: var(--secondary);
+}
+
+.card-img-team:hover a {
+  transform: rotate(0deg);
+}
+
+.card-img-team:hover img {
+  transform: scale(1.12);
+  transition: all 0.3s;
+}
+
+.card-img-team:hover .team-social {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+@media screen and (max-width: 992px) {
+  .about-us-feature {
+    margin-top: 30px;
+  }
+
+  .about-us-breadcrumbs {
+    width: 50%;
+    padding: 15px;
+  }
+
+  .about-us-breadcrumbs .breadcrumb {
+    padding: 0.75rem 0rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about-insure .row.no-gutters {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  a.btn-toggle-about-us.btn {
+    color: var(--white) !important;
+  }
+  .about-us-breadcrumbs {
+    width: 75%;
+    padding: 15px;
+  }
+
+  .about-us-breadcrumbs .breadcrumb {
+    padding: 0.75rem 0rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .about-us-breadcrumbs {
+    width: 87%;
+    padding: 15px;
+  }
+
+  .about-us-breadcrumbs .breadcrumb {
+    padding: 0.75rem 0rem;
+  }
+
+  .about-us-breadcrumbs h1 {
+    font-size: 22px;
+  }
+
+  .about-us-breadcrumbs ol.breadcrumb li,
+  ol.breadcrumb a {
+    font-size: 13px;
+  }
+
+  .review h4 {
+    font-size: 16px !important;
+  }
+}

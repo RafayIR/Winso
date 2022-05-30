@@ -1,0 +1,67 @@
+.what-you-need {
+  background-color: var(--secondary);
+}
+
+.not-sure-heading h1 {
+  color: var(--white);
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.what-you-need h3 {
+  font-size: 18px;
+  color: var(--white);
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.what-you-need h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--primary);
+}
+.email-subscriber input {
+  background-color: transparent;
+  height: 37px;
+}
+
+.email-subscriber button {
+  width: 50px;
+}
+
+.what-you-need .card-body {
+  padding: 50px;
+}
+
+.what-you-need .row .col-lg-4:last-child .card {
+  background-color: #263749 !important;
+}
+
+.what-you-need .col-lg-4:last-child input.form-control {
+  color: var(--white);
+}
+
+@media screen and (min-width: 991px) {
+  .what-you-need h2 {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .not-sure-heading h1 {
+    font-size: 24px;
+  }
+  .what-you-need h2 {
+    font-size: 24px;
+  }
+  .what-you-need .card-body {
+    padding: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .email-subscriber input {
+    height: 30px;
+  }
+}

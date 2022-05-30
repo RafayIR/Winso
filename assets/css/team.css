@@ -1,0 +1,84 @@
+.meet-team {
+  background-color: var(--light-blue);
+}
+
+.meet-team-header {
+  padding-top: 90px;
+}
+
+.meet-team-header h4 {
+  color: var(--primary);
+  font-size: 16px;
+}
+.meet-team-header h2 {
+  font-size: 32px;
+}
+
+.meet-team-slider .card {
+  background-color: transparent;
+  align-items: center;
+}
+
+.card-img {
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.card-img img {
+  width: 150px;
+  height: 150px;
+
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.meet-team-slider .card-text {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--primary);
+}
+/*************HOVER-EFFECT*********************/
+
+.team-social-inner a {
+  font-size: 16px;
+  color: var(--white);
+  margin: 0 12px;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.team-social {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: all 0.3s;
+  background-color: rgba(70, 202, 215, 0.65);
+  transform: translateY(5px);
+  border-radius: 50%;
+  will-change: opacity, visibility;
+  display: inline-flex;
+  visibility: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-img:hover .card-img-top {
+  transform: scale(1.12);
+  transition: all 0.3s;
+}
+
+.card-img:hover .team-social {
+  opacity: 1;
+  transform: translateY(0);
+  visibility: visible;
+}
+
+@media screen and (max-width: 576px) {
+  .meet-team-header h1 {
+    font-size: 25px;
+  }
+}

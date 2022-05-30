@@ -1,0 +1,131 @@
+.testimonial {
+  background-color: var(--light-blue);
+}
+
+.testimonial-header {
+  margin-bottom: 30px;
+}
+
+.testimonial-para {
+  background-color: var(--white);
+  padding: 20px;
+}
+
+.testimonial-para p {
+  font-size: 15px;
+  color: var(--gray);
+}
+.customer-review {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.review h4 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.customer-review > * {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.customer-review .fas {
+  color: var(--yellow);
+}
+.avatar-img img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.get-phone-no {
+  color: var(--white);
+}
+
+.get-phone-no h1 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.testimonial-para {
+  position: relative;
+}
+
+.testimonial-para::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 13px;
+  background-color: var(--white);
+  bottom: -12px;
+  left: 37px;
+  transform: rotate(180deg);
+  clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+}
+
+/***********OWL-BUTTON-STYLING-TEAM******************/
+
+.meet-team-slider .owl-nav,
+.testimonial .owl-nav {
+  position: absolute;
+  top: -100px;
+  right: 15px;
+}
+
+.meet-team-slider .owl-nav button.owl-prev,
+.meet-team-slider .owl-nav button.owl-next,
+.testimonial .owl-nav button.owl-prev,
+.testimonial .owl-nav button.owl-next {
+  width: 50px;
+  height: 45px;
+  border: 1px solid #888888 !important;
+  background-color: var(--white) !important;
+  color: var(--main-color) !important;
+  border-radius: 3px;
+}
+
+.meet-team-slider .owl-nav button.owl-prev span,
+.meet-team-slider .owl-nav button.owl-next span,
+.testimonial .owl-nav button.owl-prev span,
+.testimonial .owl-nav button.owl-next span {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 18px;
+  color: #5e5e5e !important;
+}
+
+/***********OWL-BUTTON-STYLING-TESTIMONIAL******************/
+
+@media screen and (max-width: 768px) {
+  .get-phone-no h1 {
+    font-size: 18px;
+  }
+
+  .testimonial .owl-nav button.owl-prev,
+  .testimonial .owl-nav button.owl-next,
+  .meet-team-slider .owl-nav button.owl-prev,
+  .meet-team-slider .owl-nav button.owl-next {
+    width: 40px;
+    height: 35px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .meet-team-slider .owl-nav,
+  .testimonial .owl-nav {
+    top: -30px;
+  }
+
+  .row.owl-2,
+  .row.owl-3 {
+    padding-top: 30px;
+  }
+
+  .row.owl-3 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

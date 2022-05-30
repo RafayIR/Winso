@@ -1,0 +1,44 @@
+.insure-services {
+  background-color: #f2f8fe;
+  padding-bottom: 70px;
+}
+
+.insure-card .card-body {
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 25px;
+}
+
+.insure-card .card-body {
+  box-shadow: 0 1px 30px rgb(62 68 90 / 9%);
+}
+
+.insure-card .card-body .card-text {
+  height: 50px;
+  overflow: hidden;
+}
+
+.bg-wave-blue {
+  margin-top: -60px;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+@media screen and (max-width: 992px) {
+  .insure-card .card-body {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+  }
+
+  .insure-card .card-body .card-text {
+    height: 40px;
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .insure-services .insure-header h2 {
+    font-size: 24px;
+  }
+}

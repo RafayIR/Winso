@@ -1,0 +1,63 @@
+.feature-card {
+  width: 100%;
+}
+
+.insure {
+  margin-top: 90px;
+}
+
+.card-wrapper .card-text {
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.card-wrapper .card-body .card-text {
+  height: 40px;
+  overflow: hidden;
+}
+
+.card-wrapper .card {
+  box-shadow: 0 1px 30px rgb(62 68 90 / 9%);
+}
+
+.content-wrapper h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.content-wrapper h4 {
+  color: var(--primary);
+  font-size: 16px;
+}
+
+.contact-btn {
+  width: 130px;
+  height: 40px;
+}
+
+.content-wrapper p {
+  color: var(--gray);
+  font-weight: 500;
+  max-width: 90%;
+}
+
+.feature {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -50px;
+}
+
+@media screen and (max-width: 576px) {
+  .feature {
+    position: inherit;
+  }
+
+  .card-wrapper .row > * {
+    margin-bottom: 20px;
+  }
+  .content-wrapper h2 {
+    font-size: 28px;
+  }
+}
